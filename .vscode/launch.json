@@ -1,0 +1,24 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "debug core-transaction",
+			"type": "node",
+			"request": "launch",
+			"program": "${workspaceRoot}/node_modules/jasmine/bin/jasmine.js",
+			"stopOnEntry": false,
+			"args": ["test/core-transaction.spec.js"],
+			"cwd": "${workspaceRoot}",
+			"preLaunchTask": null,
+			"runtimeExecutable": null,
+			"runtimeArgs": [
+				"--nolazy"
+			],
+			"env": {
+			},
+			"externalConsole": false,
+			"sourceMaps": false,
+			"outDir": null
+		}
+	]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "core-transaction",
+  "version": "0.0.1",
+  "description": "Provide transaction framework to build on to implement transaction",
+  "main": "lib/core-transaction.js",
+  "keywords": [
+    "transaction",
+    "db",
+    "node"
+  ],
+  "author": {
+    "name": "Emmanuel Telmon",
+    "email": "etelmon@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/etelmon/core-transaction.git"
+  },
+  "scripts": {
+    "test": "npm run jasmine",
+    "jasmine": "./node_modules/jasmine/bin/jasmine.js test/*.spec.js",
+    "eslint": "./node_modules/eslint/bin/eslint.js --fix lib/* test/*.spec.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.0.0",
+    "promise": "^7.1.1",
+    "zlog4js": "^1.0.5"
+  },
+  "devDependencies": {
+    "jasmine": "^2.9.0",
+    "eslint": "^4.3.0",
+    "eslint-config-google": "^0.9.1"
+  }
+}
