@@ -1,6 +1,6 @@
 {
   "name": "core-transaction",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Provide transaction framework to build on to implement transaction",
   "main": "lib/core-transaction.js",
   "keywords": [
