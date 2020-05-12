@@ -1,6 +1,6 @@
 {
   "name": "core-transaction",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Provide transaction framework to build on to implement transaction",
   "main": "lib/core-transaction.js",
   "keywords": [
@@ -9,7 +9,7 @@
     "node"
   ],
   "author": {
-    "name": "Emmanuel Telmon",
+    "name": "Emmanuel Telmon & Others At Zimit",
     "email": "etelmon@gmail.com"
   },
   "repository": {
@@ -23,13 +23,13 @@
   },
   "license": "MIT",
   "dependencies": {
-    "lodash": "^4.0.0",
-    "promise": "^7.1.1",
-    "zlog4js": "^1.0.5"
+    "lodash": "4.17.15",
+    "promise": "7.1.1",
+    "zimit-zlog": "1.0.6"
   },
   "devDependencies": {
-    "jasmine": "^2.9.0",
-    "eslint": "^4.3.0",
-    "eslint-config-google": "^0.9.1"
+    "jasmine": "2.9.0",
+    "eslint": "4.3.0",
+    "eslint-config-google": "0.9.1"
   }
 }
